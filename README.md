@@ -1,5 +1,5 @@
 # Hi there 👋
-## I am Nima Askari from Rasht/Iran and now living in Graz/Austria. I am an Electronic Engineer. I want to share with you all the libraries I have written. please support me on the youtube, instagram, and if you want donate me. thanks.
+## I am Nima Askari. I am an Electronic Engineer. I want to share with you all the libraries I have written. please support me on the youtube, instagram, and if you want donate me. thanks.
 - 📫 How to reach me:   
 https://youtube.com/@nimaltd  
 https://instagram.com/github.nimaltd  
