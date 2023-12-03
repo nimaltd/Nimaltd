@@ -5,5 +5,10 @@
 **nimaltd/Nimaltd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
-- 📫 How to reach me: (https://t.me/nimaltd) (nima.askari@gmail.com)
+- 📫 How to reach me: 
+https://youtube.com/@nimaltd
+https://instagram.com/github.nimaltd
+https://linkedin.com/in/nimaltd
+nima.askari@gmail.com
+https://t.me/nimaltd   
 -->
