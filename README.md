@@ -5,7 +5,6 @@ https://youtube.com/@nimaltd
 https://instagram.com/github.nimaltd  
 https://linkedin.com/in/nimaltd  
 nima.askari@gmail.com  
-https://t.me/nimaltd     
 <!--
 **nimaltd/Nimaltd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
