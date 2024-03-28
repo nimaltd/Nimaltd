@@ -7,10 +7,10 @@ I'm dedicated to creating libraries that make life easier for electronic enginee
 
 ### Connect with Me
 📫 **How to Reach Me:**
-- YouTube: [Nima Ltd](https://youtube.com/@nimaltd) ![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube)
-- Instagram: [github.nimaltd](https://instagram.com/github.nimaltd) ![Instagram](https://img.shields.io/badge/Instagram-blue?logo=instagram)
-- LinkedIn: [Nima Askari](https://linkedin.com/in/nimaltd) ![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)
-- Email: [nima.askari@gmail.com](mailto:nima.askari@gmail.com) ![Email](https://img.shields.io/badge/Email-red?logo=gmail)
+- YouTube: [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://youtube.com/@nimaltd)
+- Instagram: [![Instagram](https://img.shields.io/badge/Instagram-Follow-blue?style=for-the-badge&logo=instagram)](https://instagram.com/github.nimaltd)
+- LinkedIn: [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/nimaltd)
+- Email: [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:nima.askari@gmail.com)
 
 ### Support Me
 If you find my libraries useful, consider supporting me in the following ways:
