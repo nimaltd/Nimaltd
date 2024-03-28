@@ -17,6 +17,7 @@ If you find my libraries useful, consider supporting me in the following ways:
 - Subscribe to my [YouTube channel](https://youtube.com/@nimaltd) for tutorials and updates.
 - Follow me on [Instagram](https://instagram.com/github.nimaltd) for behind-the-scenes content.
 - Connect with me on [LinkedIn](https://linkedin.com/in/nimaltd) to stay in touch.
-- If you'd like to contribute financially, you can donate to me (details to be added).
+- Donate on [Ko-fi](https://ko-fi.com/nimaltd) to support my work. ![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-orange?style=for-the-badge&logo=ko-fi)
+
 
 Thank you for your support! Together, we can build a vibrant community of electronic engineers. Let's innovate and create amazing projects!
