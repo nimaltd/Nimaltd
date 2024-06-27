@@ -12,4 +12,5 @@ I'm dedicated to creating libraries that make life easier for electronic enginee
 - [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:nima.askari@gmail.com)
 - [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-orange?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/nimaltd)
 
+### You can install my Stm32CubeMx packes from here: https://github.com/nimaltd/STM32-PACK/raw/main/NimaLTD.pidx 
 Thank you for your support! Together, we can build a vibrant community of electronic engineers. Let's innovate and create amazing projects!
