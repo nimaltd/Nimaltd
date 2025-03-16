@@ -1,6 +1,6 @@
 # Hi there! 👋  
 
-I'm **Nima Askari**, an **Electronic Engineer** passionate about sharing my knowledge through libraries I've written.
+I'm **Nima Askari**, an **Electronic Engineer** passionate about sharing my knowledge through libraries I've written. 
 Welcome to my GitHub profile! :) 
 
 ---
