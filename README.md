@@ -1,7 +1,8 @@
+
 # Hi there! 👋  
 
-I'm **Nima Askari**, an **Electronic Engineer** passionate about sharing my knowledge through libraries I've written. 
-Welcome to my GitHub profile! :) 
+I'm **Nima Askari**, an **Electronic Engineer** passionate about simplifying the complex world of electronics. Welcome to my GitHub profile! 😊  
+I focus on creating libraries that are not only **effective** but also **easy to understand and use**—designed with you in mind, whether you're a beginner or an experienced engineer. My goal is to provide solutions that enhance your projects and workflows, making engineering tasks simpler and more efficient.
 
 ---
 
@@ -9,12 +10,6 @@ Welcome to my GitHub profile! :)
 
 All libraries provided here are **dual-licensed**. Please review the licensing terms before using them in your projects.  
 For any inquiries, feel free to contact me.
-
----
-
-### About Me  
-
-I'm dedicated to creating libraries that simplify and optimize tasks for electronic engineers. Whether it’s improving code efficiency or making complex problems easier to tackle, my goal is to provide solutions that enhance your projects and workflows.  
 
 ---
 
