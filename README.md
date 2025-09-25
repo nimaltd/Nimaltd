@@ -24,7 +24,7 @@ All my libraries are **dual-licensed**. Please check the license terms before us
 
 ### 🧩 Next-Gen Libraries  
 
-A curated list of my **modern, developer-friendly libraries** designed to simplify embedded development:  
+A curated list of my **post-2025 libraries**, built to make embedded development easier:   
 
 | Library | Description | Link |
 |---------|-------------|------|
