@@ -22,17 +22,15 @@ All my libraries are **dual-licensed**. Please check the license terms before us
 
 ---
 
-### 📦 STM32CubeMx Packages  
-
-🔗 [**STM32-PACK Repository**](https://github.com/nimaltd/STM32-PACK)  
-
----
-
 ### 🧩 Next-Gen Libraries  
 
-Here’s a curated list of my **modern, developer-friendly libraries** designed to simplify embedded development:  
+A curated list of my **modern, developer-friendly libraries** designed to simplify embedded development:  
 
-- **ow** – Non-Blocking One-wire (1-Wire) Library for STM32 - https://github.com/nimaltd/ow
+| Library | Description | Link |
+|---------|-------------|------|
+| **ow** | Non-Blocking One-Wire (1-Wire) Library for STM32 | [🔗 GitHub](https://github.com/nimaltd/ow) |
+
+*(More coming soon... stay tuned!)*  
 
 
 *(More coming soon... stay tuned!)*  
