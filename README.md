@@ -1,7 +1,6 @@
 # 👋 Hey, I'm Nima Askari  
 
-🚀 **Electronic Engineer** | Maker of simple & powerful libraries for embedded systems.  
-I love turning **complex electronics** into **clear, reusable, and modern solutions** — so you can focus on building amazing things instead of debugging the basics.  
+🚀 ** Electronic Engineer | Creating powerful libraries that make embedded systems more accessible, so every project can reach its full potential.  
 
 ---
 
