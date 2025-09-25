@@ -1,20 +1,40 @@
 # 👋 Hey, I'm Nima Askari  
 
-🚀 Electronic Engineer | Creating powerful libraries that make embedded systems more accessible, so every project can reach its full potential.  
+🚀 **Electronic Engineer**  
+I design modern libraries for embedded systems with clarity and reliability in mind.  
+Programming and electronics are not only my profession, they are also my passion and a source of joy.  
+I love turning complex electronics into **simple, reusable, and modern solutions** so developers can focus on building amazing projects instead of debugging the basics.  
 
 ---
 
-### ⚠️ Licensing  
+### 👨‍💻 Achievements & Experience  
 
-All my libraries are **dual-licensed**. Please check the license terms before using them.  
-📩 Questions? Just reach out!  
+In **2003**, I achieved **third place** in the *National Skills Competition of Electronic Engineering* in Iran (ID: 956 – [Certificate PDF](http://skill.irantvto.ir/uploads/all_medal_nsc.pdf)).  
+
+With more than **20 years of experience** in electronics, I have worked as an assembler, repair technician, and design/manufacturing engineer. My journey spans from **hands-on craftsmanship** to **embedded system programming**, always driven by problem-solving and attention to detail.  
+
+---
+
+### 🎓 Education  
+**B.Sc. in Electronic Engineering**  
+Chamran University – Rasht  
+
+---
+
+### 🛠 Skills  
+
+- Embedded system design  
+- Embedded C programming  
+- Analog and digital circuit design  
+- Electronic equipment repair  
 
 ---
 
 ### 🌐 Connect with Me  
 
-[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://youtube.com/@nimaltd)  
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-purple?style=for-the-badge&logo=instagram)](https://instagram.com/github.nimaltd)  
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://www.github.com/NimaLTD)  
+[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@NimaLTD)  
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-purple?style=for-the-badge&logo=instagram)](https://www.instagram.com/github.NimaLTD)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/nimaltd)  
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:nima.askari@gmail.com)  
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-orange?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/nimaltd)  
@@ -23,7 +43,7 @@ All my libraries are **dual-licensed**. Please check the license terms before us
 
 ### 🧩 Next-Gen Libraries  
 
-A curated list of my **post-2025 libraries**, built to make embedded development easier:   
+A curated list of my **post-2025 libraries**, built to make embedded development easier:  
 
 | Library | Description | Link |
 |---------|-------------|------|
@@ -33,7 +53,7 @@ A curated list of my **post-2025 libraries**, built to make embedded development
 
 ---
 
-### 💬 Thanks for Your Support!  
+### 💬 Thank You  
 
 Your encouragement helps me keep building and sharing.  
-Let’s **engineer smarter, not harder** 🌟  
+Let’s **engineer smarter, not harder** 🌟
