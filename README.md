@@ -9,7 +9,7 @@ I love turning complex electronics into **simple, reusable, and modern solutions
 
 ### 👨‍💻 Achievements & Experience  
 
-In **2003**, I achieved **third place** in the *National Skills Competition of Electronic Engineering* in Iran (ID: 956 – [Certificate PDF](http://skill.irantvto.ir/uploads/all_medal_nsc.pdf)).  
+In **2003**, I achieved **third place** in the *National Skills Competition of Electronic Engineering* in Iran.  
 
 With more than **20 years of experience** in electronics, I have worked as an assembler, repair technician, and design/manufacturing engineer. My journey spans from **hands-on craftsmanship** to **embedded system programming**, always driven by problem-solving and attention to detail.  
 
