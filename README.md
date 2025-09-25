@@ -32,9 +32,6 @@ A curated list of my **modern, developer-friendly libraries** designed to simpli
 
 *(More coming soon... stay tuned!)*  
 
-
-*(More coming soon... stay tuned!)*  
-
 ---
 
 ### 💬 Thanks for Your Support!  
