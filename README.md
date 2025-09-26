@@ -34,9 +34,9 @@ Chamran University – Rasht
 
 A curated list of my **post-2025 libraries**, built to make embedded development easier:  
 
-| Library | Description | Link |
-|---------|-------------|------|
-| **ow** | Non-Blocking One-Wire (1-Wire) Library for STM32 | [🔗 GitHub](https://github.com/nimaltd/ow) |
+| Library | Description | Link | Starts |
+|---------|-------------|------|--------|
+| **ow** | Non-Blocking One-Wire (1-Wire) Library for STM32 | [🔗 GitHub](https://github.com/nimaltd/ow) | ![GitHub Repo stars](https://img.shields.io/github/stars/OWNER/REPO?style=social) |
 
 *(More coming soon... stay tuned!)*  
 
