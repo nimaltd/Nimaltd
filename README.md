@@ -30,17 +30,6 @@ Chamran University – Rasht
 
 ---
 
-### 🌐 Connect with Me  
-
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://www.github.com/NimaLTD)  
-[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@NimaLTD)  
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-purple?style=for-the-badge&logo=instagram)](https://www.instagram.com/github.NimaLTD)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/nimaltd)  
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:nima.askari@gmail.com)  
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-orange?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/nimaltd)  
-
----
-
 ### 🧩 New-Gen Libraries  
 
 A curated list of my **post-2025 libraries**, built to make embedded development easier:  
@@ -50,6 +39,17 @@ A curated list of my **post-2025 libraries**, built to make embedded development
 | **ow** | Non-Blocking One-Wire (1-Wire) Library for STM32 | [🔗 GitHub](https://github.com/nimaltd/ow) |
 
 *(More coming soon... stay tuned!)*  
+
+---
+
+### 🌐 Connect with Me  
+
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://www.github.com/NimaLTD)  
+[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@NimaLTD)  
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-purple?style=for-the-badge&logo=instagram)](https://www.instagram.com/github.NimaLTD)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/nimaltd)  
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:nima.askari@gmail.com)  
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-orange?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/nimaltd)  
 
 ---
 
