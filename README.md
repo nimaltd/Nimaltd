@@ -36,7 +36,7 @@ A curated list of my **post-2025 libraries**, built to make embedded development
 
 | Library | Description | Link | Starts |
 |---------|-------------|------|--------|
-| **ow** | Non-Blocking One-Wire (1-Wire) Library for STM32 | [🔗 GitHub](https://github.com/nimaltd/ow) | ![GitHub Repo stars](https://github-readme-stats.vercel.app/api/pin/?username=NimaLTD&repo=ow) |
+| **ow** | Non-Blocking One-Wire (1-Wire) Library for STM32 | [🔗 GitHub](https://github.com/nimaltd/ow) | (https://img.shields.io/github/stars/NimaLTD/ow?style=social) |
 
 *(More coming soon... stay tuned!)*  
 
