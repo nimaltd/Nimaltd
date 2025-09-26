@@ -41,7 +41,7 @@ Chamran University – Rasht
 
 ---
 
-### 🧩 Next-Gen Libraries  
+### 🧩 New-Gen Libraries  
 
 A curated list of my **post-2025 libraries**, built to make embedded development easier:  
 
