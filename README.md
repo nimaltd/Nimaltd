@@ -8,11 +8,12 @@ My goal is to make **embedded development simpler and cleaner**, so engineers ca
 Programming and electronics are more than just my career—they are my passion.  
 I enjoy transforming **low-level complexity** into **reusable, well-structured, and developer-friendly libraries**.  
 
-### ⚡ Focus Areas  
-- 🔧 **Embedded C Libraries** – clean, reusable, and efficient code for microcontrollers.  
-- 📦 **Code Reusability** – libraries designed for portability and scalability.  
-- 🛠 **Problem-Solving** – turning complex hardware challenges into simple software solutions.  
-- 📚 **Knowledge Sharing** – writing code that is as clear as it is powerful.  
+### ⚡ Focus Areas
+- 🔧 **Embedded C Libraries** – clean, efficient, and reusable code for microcontrollers.  
+- 🖥 **Embedded System Design** – architecture, integration, and optimization of embedded hardware.  
+- 🔩 **Electronics Design & Prototyping** – circuit design, PCB layout, and hardware troubleshooting.  
+- 🛠 **Hardware-Software Integration** – bridging microcontroller firmware with real-world electronics.  
+- 📦 **Code & Hardware Reusability** – creating modular designs and libraries for fast development.  
 
 ### 👨‍💻 Achievements & Experience  
 
