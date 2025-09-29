@@ -24,8 +24,6 @@ With **20+ years in electronics**, I’ve worked across:
 - 🔩 **Electronics Design & Manufacturing**  
 - 🔌 **Repair & Assembly Engineering**  
 
-From hands-on circuit design to embedded software architecture, my journey has always been about **clarity, precision, and reliability**.  
-
 👉 If you want to explore my work, check out my repositories where I share **open-source embedded C libraries** and tools to accelerate development.  
 
 ### 🎓 Education  
