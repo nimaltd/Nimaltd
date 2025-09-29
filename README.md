@@ -5,7 +5,7 @@
 I specialize in designing **modern, lightweight, and reliable C libraries** for embedded systems.  
 My goal is to make **embedded development simpler and cleaner**, so engineers can focus on building products, not reinventing the wheel.  
 
-Programming and electronics are more than just my career—they are my passion.  
+Programming and electronics are more than just my career, they are my passion.  
 I enjoy transforming **low-level complexity** into **reusable, well-structured, and developer-friendly libraries**.  
 
 ### ⚡ Focus Areas
