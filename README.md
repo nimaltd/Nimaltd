@@ -1,32 +1,42 @@
 # 👋 Hey, I'm Nima Askari  
 
-🚀 **Electronic Engineer**  
-I design modern libraries for embedded systems with clarity and reliability in mind.  
-Programming and electronics are not only my profession, they are also my passion and a source of joy.  
-I love turning complex electronics into **simple, reusable, and modern solutions** so developers can focus on building amazing projects instead of debugging the basics.  
+🚀 **Electronic Engineer & Embedded Systems Developer**  
 
----
+I specialize in designing **modern, lightweight, and reliable C libraries** for embedded systems.  
+My goal is to make **embedded development simpler and cleaner**, so engineers can focus on building products—not reinventing the wheel.  
+
+Programming and electronics are more than just my career—they are my passion.  
+I enjoy transforming **low-level complexity** into **reusable, well-structured, and developer-friendly libraries**.  
+
+--
+
+### ⚡ Focus Areas  
+- 🔧 **Embedded C Libraries** – clean, reusable, and efficient code for microcontrollers.  
+- 📦 **Code Reusability** – libraries designed for portability and scalability.  
+- 🛠 **Problem-Solving** – turning complex hardware challenges into simple software solutions.  
+- 📚 **Knowledge Sharing** – writing code that is as clear as it is powerful.  
+
+--
 
 ### 👨‍💻 Achievements & Experience  
 
-In **2003**, I achieved **third place** in the *National Skills Competition of Electronic Engineering* in Iran.  
+🏆 **2003** – Third Place, *National Skills Competition of Electronic Engineering* (Iran).  
 
-With more than **20 years of experience** in electronics, I have worked as an assembler, repair technician, and design/manufacturing engineer. My journey spans from **hands-on craftsmanship** to **embedded system programming**, always driven by problem-solving and attention to detail.  
+With **20+ years in electronics**, I’ve worked across:  
+- 🖥 **Embedded System Programming**  
+- 🔩 **Electronics Design & Manufacturing**  
+- 🔌 **Repair & Assembly Engineering**  
 
----
+From hands-on circuit design to embedded software architecture, my journey has always been about **clarity, precision, and reliability**.  
+
+--
+
+👉 If you want to explore my work, check out my repositories where I share **open-source embedded C libraries** and tools to accelerate development.  
+
 
 ### 🎓 Education  
 **B.Sc. in Electronic Engineering**  
 Chamran University – Rasht  
-
----
-
-### 🛠 Skills  
-
-- Embedded system design  
-- Embedded C programming  
-- Analog and digital circuit design  
-- Electronic equipment repair  
 
 ---
 
