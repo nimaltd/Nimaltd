@@ -3,20 +3,16 @@
 🚀 **Electronic Engineer & Embedded Systems Developer**  
 
 I specialize in designing **modern, lightweight, and reliable C libraries** for embedded systems.  
-My goal is to make **embedded development simpler and cleaner**, so engineers can focus on building products—not reinventing the wheel.  
+My goal is to make **embedded development simpler and cleaner**, so engineers can focus on building products, not reinventing the wheel.  
 
 Programming and electronics are more than just my career—they are my passion.  
 I enjoy transforming **low-level complexity** into **reusable, well-structured, and developer-friendly libraries**.  
-
---
 
 ### ⚡ Focus Areas  
 - 🔧 **Embedded C Libraries** – clean, reusable, and efficient code for microcontrollers.  
 - 📦 **Code Reusability** – libraries designed for portability and scalability.  
 - 🛠 **Problem-Solving** – turning complex hardware challenges into simple software solutions.  
 - 📚 **Knowledge Sharing** – writing code that is as clear as it is powerful.  
-
---
 
 ### 👨‍💻 Achievements & Experience  
 
@@ -29,16 +25,11 @@ With **20+ years in electronics**, I’ve worked across:
 
 From hands-on circuit design to embedded software architecture, my journey has always been about **clarity, precision, and reliability**.  
 
---
-
 👉 If you want to explore my work, check out my repositories where I share **open-source embedded C libraries** and tools to accelerate development.  
-
 
 ### 🎓 Education  
 **B.Sc. in Electronic Engineering**  
 Chamran University – Rasht  
-
----
 
 ### 🧩 New-Gen Libraries  
 
@@ -47,11 +38,9 @@ A curated list of my **post-2025 libraries**, built to make embedded development
 | Library | Description | Link | Stars |
 |---------|-------------|------|-------|
 | **ow** | Non-Blocking One-Wire (1-Wire) Library for STM32 | [🔗 Library](https://github.com/nimaltd/ow) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ow?style=social) |
-| **fsm** | Finite state maching + task manager Library for STM32 | [🔗 Library](https://github.com/nimaltd/fsm) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/fsm?style=social) |
+| **fsm** | Finite state machine + task manager Library for STM32 | [🔗 Library](https://github.com/nimaltd/fsm) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/fsm?style=social) |
 
 *(More coming soon... stay tuned!)*  
-
----
 
 ### 🌐 Connect with Me  
 
@@ -61,8 +50,6 @@ A curated list of my **post-2025 libraries**, built to make embedded development
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/nimaltd)  
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:nima.askari@gmail.com)  
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-orange?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/nimaltd)  
-
----
 
 ### 💬 Thank You  
 
