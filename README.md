@@ -36,6 +36,7 @@ A curated list of my **post-2025 libraries**, built to make embedded development
 
 | Library | Description | Link | Stars |
 |---------|-------------|------|-------|
+| **ds18b20** | Non-Blocking DS18B20 Library for STM32 | [🔗 Library](https://github.com/nimaltd/ds18b20) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ds18b20?style=social) |
 | **ow** | Non-Blocking One-Wire (1-Wire) Library for STM32 | [🔗 Library](https://github.com/nimaltd/ow) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ow?style=social) |
 | **fsm** | Finite state machine + task manager Library for STM32 | [🔗 Library](https://github.com/nimaltd/fsm) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/fsm?style=social) |
 
