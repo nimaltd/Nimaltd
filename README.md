@@ -34,7 +34,7 @@ Chamran University – Rasht
 
 ---
 
-### 🧩 Recent Libraries
+### 🧩 My New Style Libraries
 
 | Library | Description | Link | Stars |
 |----------|--------------|------|-------|
