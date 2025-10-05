@@ -1,57 +1,46 @@
-# 👋 Hey, I'm Nima Askari  
+👋 Hi, I'm Nima Askari
 
-🚀 **Electronic Engineer & Embedded Systems Developer**  
+🚀 Electronics Engineer & Embedded Systems Developer
 
-I specialize in designing **modern, lightweight, and reliable C libraries** for embedded systems.  
-My goal is to make **embedded development simpler and cleaner**, so engineers can focus on building products, not reinventing the wheel.  
+I focus on designing simple, reliable, and reusable C libraries for embedded systems — tools that make development smoother and more maintainable.
 
-Programming and electronics are more than just my career, they are my passion.  
-I enjoy transforming **low-level complexity** into **reusable, well-structured, and developer-friendly libraries**.  
+I enjoy working close to hardware, where code meets circuits, and where small design choices make a big difference in reliability and performance.
 
-### ⚡ Focus Areas
-- 🔧 **Embedded C Libraries** – clean, efficient, and reusable code for microcontrollers.  
-- 🖥 **Embedded System Design** – architecture, integration, and optimization of embedded hardware.  
-- 🔩 **Electronics Design & Prototyping** – circuit design, PCB layout, and hardware troubleshooting.  
-- 🛠 **Hardware-Software Integration** – bridging microcontroller firmware with real-world electronics.  
-- 📦 **Code & Hardware Reusability** – creating modular designs and libraries for fast development.  
+⚡ Focus Areas
+- Embedded C Libraries – modular, lightweight code for microcontrollers
+- Embedded System Design – system architecture and firmware integration
+- Electronics Design & Prototyping – circuit design, PCB layout, and debugging
+- Hardware-Software Integration – connecting firmware with real-world hardware
+- Code Reusability – building libraries and components that simplify future projects
 
-### 👨‍💻 Achievements & Experience  
+👨‍💻 Experience & Highlights
 
-🏆 **2003** – Third Place, *National Skills Competition of Electronic Engineering* (Iran).  
+🏆 2003 – Third Place, National Skills Competition of Electronic Engineering (Iran)
 
-With **20+ years in electronics**, I’ve worked across:  
-- 🖥 **Embedded System Programming**  
-- 🔩 **Electronics Design & Manufacturing**  
-- 🔌 **Repair & Assembly Engineering**  
+With over two decades in electronics, my work has covered:
+- Embedded system programming
+- Electronics design and production
+- Hardware testing, repair, and assembly
 
-👉 If you want to explore my work, check out my repositories where I share **open-source embedded C libraries** and tools to accelerate development.  
+You can find some of my open-source libraries here — practical tools built to support embedded engineers in their daily work.
 
-### 🎓 Education  
-**B.Sc. in Electronic Engineering**  
-Chamran University – Rasht  
+🎓 Education
+B.Sc. in Electronic Engineering
+Chamran University – Rasht
 
-### 🧩 New-Gen Libraries  
+🧩 Recent Libraries
+- ds18b20 – Non-blocking DS18B20 driver for STM32
+- ow – Non-blocking One-Wire library for STM32
+- fsm – Finite state machine and task manager for STM32
 
-A curated list of my **post-2025 libraries**, built to make embedded development easier:  
+🌐 Connect
+GitHub: github.com/NimaLTD
+YouTube: youtube.com/@NimaLTD
+Instagram: instagram.com/github.NimaLTD
+LinkedIn: linkedin.com/in/nimaltd
+Email: nima.askari@gmail.com
+Ko-fi: ko-fi.com/nimaltd
 
-| Library | Description | Link | Stars |
-|---------|-------------|------|-------|
-| **ds18b20** | Non-Blocking DS18B20 Library for STM32 | [🔗 Library](https://github.com/nimaltd/ds18b20) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ds18b20?style=social) |
-| **ow** | Non-Blocking One-Wire (1-Wire) Library for STM32 | [🔗 Library](https://github.com/nimaltd/ow) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ow?style=social) |
-| **fsm** | Finite state machine + task manager Library for STM32 | [🔗 Library](https://github.com/nimaltd/fsm) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/fsm?style=social) |
-
-*(More coming soon... stay tuned!)*  
-
-### 🌐 Connect with Me  
-
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://www.github.com/NimaLTD)  
-[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@NimaLTD)  
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-purple?style=for-the-badge&logo=instagram)](https://www.instagram.com/github.NimaLTD)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/nimaltd)  
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:nima.askari@gmail.com)  
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-orange?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/nimaltd)  
-
-### 💬 Thank You  
-
-Your encouragement helps me keep building and sharing.  
-Let’s **engineer smarter, not harder** 🌟
+💬 Thanks
+Thanks for visiting — and for supporting open embedded development.
+Let’s keep building tools that make engineering easier for everyone. ⚙️
