@@ -2,7 +2,7 @@
 
 🚀 **Electronics Engineer & Embedded Systems Developer**  
 
-I focus on building **simple, reliable, and reusable C libraries** for embedded systems — making development cleaner, faster, and easier to maintain.  
+I focus on building **simple, reliable, and reusable C libraries** for embedded systems, making development cleaner, faster, and easier to maintain.  
 I enjoy bridging hardware and software, turning complex low-level details into efficient, developer-friendly solutions.
 
 ---
