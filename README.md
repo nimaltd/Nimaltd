@@ -38,10 +38,11 @@ Chamran University – Rasht
 
 | Library | Description | Link | Stars |
 |----------|--------------|------|-------|
+| **ee** | EEPROM Emulation for STM32 | [🔗 View](https://github.com/nimaltd/ee) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ee?style=social) |
 | **ds18b20** | Non-blocking DS18B20 driver for STM32 | [🔗 View](https://github.com/nimaltd/ds18b20) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ds18b20?style=social) |
 | **ow** | Non-blocking One-Wire library for STM32 | [🔗 View](https://github.com/nimaltd/ow) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ow?style=social) |
 | **fsm** | Finite state machine & task manager for STM32 | [🔗 View](https://github.com/nimaltd/fsm) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/fsm?style=social) |
-| **ee** | EEPROM Emulation for STM32 | [🔗 View](https://github.com/nimaltd/ee) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ee?style=social) |
+| **tm1637** | TM1637 7-Seg Driver for STM32 | [🔗 View](https://github.com/nimaltd/tm1637) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/tm1637?style=social) |
 
 *(More coming soon…)*  
 
