@@ -41,7 +41,7 @@ Chamran University – Rasht
 | **ee** | EEPROM Emulation for STM32 | [🔗 View](https://github.com/nimaltd/ee) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ee?style=social) |
 | **ds18b20** | Non-blocking DS18B20 Driver for STM32 | [🔗 View](https://github.com/nimaltd/ds18b20) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ds18b20?style=social) |
 | **ow** | Non-blocking One-Wire Driver for STM32 | [🔗 View](https://github.com/nimaltd/ow) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ow?style=social) |
-| **fsm** | Finite state machine & task manager for STM32 | [🔗 View](https://github.com/nimaltd/fsm) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/fsm?style=social) |
+| **fsm** | Finite state machine & task queue for STM32 | [🔗 View](https://github.com/nimaltd/fsm) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/fsm?style=social) |
 | **tm1637** | TM1637 7-Seg Driver for STM32 | [🔗 View](https://github.com/nimaltd/tm1637) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/tm1637?style=social) |
 | **pb** | Push-Button Driver for STM32 | [🔗 View](https://github.com/nimaltd/pb) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/pb?style=social) |
 
