@@ -43,7 +43,7 @@ Chamran University – Rasht
 | **ow** | Non-blocking One-Wire Driver for STM32 | [🔗 View](https://github.com/nimaltd/ow) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ow?style=social) |
 | **fsm** | Finite state machine & task queue for STM32 | [🔗 View](https://github.com/nimaltd/fsm) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/fsm?style=social) |
 | **tm1637** | TM1637 7-Seg Driver for STM32 | [🔗 View](https://github.com/nimaltd/tm1637) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/tm1637?style=social) |
-| **pb** | Push-Button Driver for STM32 | [🔗 View](https://github.com/nimaltd/pb) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/pb?style=social) |
+| **pb** | Non-blocking Push-Button Driver for STM32 | [🔗 View](https://github.com/nimaltd/pb) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/pb?style=social) |
 
 *(More coming soon…)*  
 
