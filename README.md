@@ -1,65 +1,61 @@
 # 👋 Hi, I'm Nima Askari
 
-🚀 **Electronics Engineer & Embedded Systems Developer**  
+I'm an electronics engineer and embedded systems developer. For more than 20 years I've been writing C for STM32 microcontrollers, and most of that time has gone into one goal: making libraries that are actually easy to use.
 
-I focus on building **simple, reliable, and reusable C libraries** for embedded systems, making development cleaner, faster, and easier to maintain.  
-I enjoy bridging hardware and software, turning complex low-level details into efficient, developer-friendly solutions.
-
----
-
-### ⚡ Focus Areas
-- 🔧 **Embedded C Libraries** – modular and lightweight code for microcontrollers  
-- 🖥 **System Design** – embedded architecture and firmware integration  
-- 🔩 **Electronics & Prototyping** – circuit design, PCB layout, and debugging  
-- 🛠 **Hardware-Software Integration** – connecting firmware with real hardware  
-- 📦 **Reusable Code** – tools and libraries for faster development  
+I got tired of fighting messy drivers and overcomplicated code, so I started writing my own, cleaning them up, and sharing them with anyone who needs them.
 
 ---
 
-### 👨‍💻 Experience & Highlights
-🏆 **2003** – *Third Place*, National Skills Competition of Electronic Engineering (Iran)  
+### 💡 What I focus on
 
-With over 20 years in the field, I’ve worked across:  
-- Embedded programming  
-- Electronics design & production  
-- Hardware testing and assembly  
-
-You can find my open-source libraries here — practical tools made to support embedded engineers.  
+Lightweight, non-blocking, easy to drop in C libraries for STM32 (HAL and LL), covering storage, communication, sensors and general drivers. The idea is always the same: add the library to your project and have it working in minutes, not days.
 
 ---
 
-### 🎓 Education
-**B.Sc. in Electronic Engineering**  
-Chamran University – Rasht  
+### 🎁 Open source, for real
+
+Every library I publish is free and open source. It's my way of giving something back to the embedded community that taught me so much over the years.
+
+If a library saves you time, a ⭐ on the repo or a small [donation on Ko-fi](https://ko-fi.com/nimaltd) means a lot to me. It's a small thing for you, but it genuinely keeps me motivated to keep writing, documenting and maintaining these libraries.
 
 ---
 
-### 🧩 My New Style Libraries
+### 🏆 Background
 
-| Library | Description | Link | Stars |
-|----------|--------------|------|-------|
-| **ee** | EEPROM Emulation for STM32 | [🔗 View](https://github.com/nimaltd/ee) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ee?style=social) |
-| **ds18b20** | Non-blocking DS18B20 Driver for STM32 | [🔗 View](https://github.com/nimaltd/ds18b20) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ds18b20?style=social) |
-| **ow** | Non-blocking One-Wire Driver for STM32 | [🔗 View](https://github.com/nimaltd/ow) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ow?style=social) |
-| **fsm** | Finite state machine & task queue for STM32 | [🔗 View](https://github.com/nimaltd/fsm) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/fsm?style=social) |
-| **tm1637** | TM1637 7-Seg Driver for STM32 | [🔗 View](https://github.com/nimaltd/tm1637) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/tm1637?style=social) |
-| **pb** | Non-blocking Push-Button Driver for STM32 | [🔗 View](https://github.com/nimaltd/pb) | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/pb?style=social) |
-
-*(More coming soon…)*  
+- Over 20 years across embedded programming, electronics design and hardware testing
+- 🥉 Third place, National Skills Competition of Electronic Engineering, Iran, 2003
+- B.Sc. in Electronic Engineering, Chamran University, Rasht
 
 ---
 
-### 🌐 Connect
+### 📦 Most used libraries
 
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://www.github.com/NimaLTD)  
-[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@NimaLTD)  
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-purple?style=for-the-badge&logo=instagram)](https://www.instagram.com/github.NimaLTD)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/nimaltd)  
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:nima.askari@gmail.com)  
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-orange?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/nimaltd)  
+| Library | Description | Stars |
+|---|---|---|
+| [spif](https://github.com/nimaltd/spif) | SPI Flash driver for W25Qxx, N25Qxx and other chips, STM32 HAL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/spif?style=social) |
+| [ee](https://github.com/nimaltd/ee) | EEPROM emulation for STM32 | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ee?style=social) |
+| [atc](https://github.com/nimaltd/atc) | AT command parser for STM32 | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/atc?style=social) |
+| [gsm_v5](https://github.com/nimaltd/gsm_v5) | GSM module library for STM32 LL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/gsm_v5?style=social) |
+| [ds18b20](https://github.com/nimaltd/ds18b20) | Non-blocking DS18B20 driver for STM32 | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ds18b20?style=social) |
+| [ee24](https://github.com/nimaltd/ee24) | 24xx series EEPROM library for STM32 HAL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ee24?style=social) |
+| [wifi-coprocessor](https://github.com/nimaltd/wifi-coprocessor) | ESP32 WiFi co-processor, full ESP-IDF project | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/wifi-coprocessor?style=social) |
+| [NMEA](https://github.com/nimaltd/NMEA) | GPS NMEA parser for STM32 LL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/NMEA?style=social) |
+
+👉 [See all my repositories](https://github.com/nimaltd?tab=repositories) for the rest, including fsm, ow, tm1637, pb, ws28xx, HX711, DHT and more.
 
 ---
 
-### 💬 Thanks  
-Thanks for visiting and supporting open embedded development.  
-Let’s keep building tools that make engineering easier for everyone. ⚙️  
+### 🌐 Let's connect
+
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://www.github.com/NimaLTD)
+[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@NimaLTD)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-purple?style=for-the-badge&logo=instagram)](https://www.instagram.com/github.NimaLTD)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/nimaltd)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:nima.askari@gmail.com)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-orange?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/nimaltd)
+
+---
+
+### 🙏 Thanks
+
+Thanks for stopping by. If any of my work is useful to you, a star on the repo or a small donation helps more than you'd think, and I appreciate every bit of it. ⚙️
