@@ -38,7 +38,6 @@ If a library saves you time, a ⭐ on the repo or a small [donation on Ko-fi](ht
 | [gsm_v5](https://github.com/nimaltd/gsm_v5) | GSM module library for STM32 LL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/gsm_v5?style=social) |
 | [ds18b20](https://github.com/nimaltd/ds18b20) | Non-blocking DS18B20 driver for STM32 | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ds18b20?style=social) |
 | [ee24](https://github.com/nimaltd/ee24) | 24xx series EEPROM library for STM32 HAL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ee24?style=social) |
-| [wifi-coprocessor](https://github.com/nimaltd/wifi-coprocessor) | ESP32 WiFi co-processor, full ESP-IDF project | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/wifi-coprocessor?style=social) |
 | [NMEA](https://github.com/nimaltd/NMEA) | GPS NMEA parser for STM32 LL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/NMEA?style=social) |
 
 👉 [See all my repositories](https://github.com/nimaltd?tab=repositories) for the rest, including fsm, ow, tm1637, pb, ws28xx, HX711, DHT and more.
