@@ -12,6 +12,27 @@ Lightweight, non-blocking, easy to drop in C libraries for STM32 (HAL and LL), c
 
 ---
 
+### 🧰 stm32-installer
+
+[![PyPI](https://img.shields.io/pypi/v/stm32-installer)](https://pypi.org/project/stm32-installer/)
+
+Installing one of my libraries takes one command. [stm32-installer](https://github.com/nimaltd/stm32-installer) copies the files into your project, creates your config file, and adds the library to your CMake, STM32CubeIDE, Keil or IAR project, backing up the project file first.
+
+```bash
+pip install stm32-installer
+stm32-installer nimaltd/sequencer
+```
+
+Libraries you can install with it:
+
+| Library | Description | Install |
+|---|---|---|
+| [sequencer](https://github.com/nimaltd/sequencer) | Non blocking state sequencer and interrupt task queue for STM32 | `stm32-installer nimaltd/sequencer` |
+
+The rest are moving to it one by one, and this list grows as they do.
+
+---
+
 ### 🎁 Open source, for real
 
 Every library I publish is free and open source. It's my way of giving something back to the embedded community that taught me so much over the years.
@@ -40,7 +61,7 @@ If a library saves you time, a ⭐ on the repo or a small [donation on Ko-fi](ht
 | [ee24](https://github.com/nimaltd/ee24) | 24xx series EEPROM library for STM32 HAL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ee24?style=social) |
 | [NMEA](https://github.com/nimaltd/NMEA) | GPS NMEA parser for STM32 LL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/NMEA?style=social) |
 
-👉 [See all my repositories](https://github.com/nimaltd?tab=repositories) for the rest, including fsm, ow, tm1637, pb, ws28xx, HX711, DHT and more.
+👉 [See all my repositories](https://github.com/nimaltd?tab=repositories) for the rest, including sequencer, ow, tm1637, pb, ws28xx, HX711, DHT and more.
 
 ---
 
