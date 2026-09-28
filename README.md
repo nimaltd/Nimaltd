@@ -20,14 +20,14 @@ Installing one of my libraries takes one command. [stm32-installer](https://gith
 
 ```bash
 pip install stm32-installer
-stm32-installer nimaltd/sequencer
+stm32-installer nimaltd/seq
 ```
 
 Libraries you can install with it:
 
 | Library | Description | Install |
 |---|---|---|
-| [sequencer](https://github.com/nimaltd/sequencer) | Non blocking state sequencer and interrupt task queue for STM32 | `stm32-installer nimaltd/sequencer` |
+| [seq](https://github.com/nimaltd/seq) | Non blocking state sequencer and interrupt task queue for STM32 | `stm32-installer nimaltd/seq` |
 
 The rest are moving to it one by one, and this list grows as they do.
 
@@ -61,7 +61,7 @@ If a library saves you time, a ⭐ on the repo or a small [donation on Ko-fi](ht
 | [ee24](https://github.com/nimaltd/ee24) | 24xx series EEPROM library for STM32 HAL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ee24?style=social) |
 | [NMEA](https://github.com/nimaltd/NMEA) | GPS NMEA parser for STM32 LL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/NMEA?style=social) |
 
-👉 [See all my repositories](https://github.com/nimaltd?tab=repositories) for the rest, including sequencer, ow, tm1637, pb, ws28xx, HX711, DHT and more.
+👉 [See all my repositories](https://github.com/nimaltd?tab=repositories) for the rest, including seq, ow, tm1637, pb, ws28xx, HX711, DHT and more.
 
 ---
 
