@@ -16,7 +16,7 @@ Lightweight, non-blocking, easy to drop in C libraries for STM32 (HAL and LL), c
 
 [![PyPI](https://img.shields.io/pypi/v/stm32-installer)](https://pypi.org/project/stm32-installer/)
 
-Installing one of my libraries takes one command. [stm32-installer](https://github.com/nimaltd/stm32-installer) copies the files into your project, creates your config file, and adds the library to your CMake, STM32CubeIDE, Keil or IAR project, backing up the project file first.
+Installing one of my libraries takes one command. [stm32-installer](https://github.com/nimaltd/stm32-installer) copies the files into your project, creates your config file, and adds the library to your CMake, STM32CubeIDE, Keil, IAR or Makefile project, backing up the project file first.
 
 ```bash
 pip install stm32-installer
