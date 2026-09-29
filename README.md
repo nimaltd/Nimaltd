@@ -28,6 +28,7 @@ Libraries you can install with it:
 | Library | Description | Install |
 |---|---|---|
 | [seq](https://github.com/nimaltd/seq) | Non blocking state sequencer and interrupt task queue for STM32 | `stm32-installer nimaltd/seq` |
+| [ee24](https://github.com/nimaltd/ee24) | Driver for 24xx I2C EEPROMs, 24C01 to 24C512, on the STM32 HAL | `stm32-installer nimaltd/ee24` |
 
 The rest are moving to it one by one, and this list grows as they do.
 
