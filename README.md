@@ -16,7 +16,7 @@ Lightweight, non-blocking, easy to drop in C libraries for STM32 (HAL and LL), c
 
 [![PyPI](https://img.shields.io/pypi/v/stm32-installer)](https://pypi.org/project/stm32-installer/)
 
-Installing one of my libraries takes one command. [stm32-installer](https://github.com/nimaltd/stm32-installer) copies the files into your project, creates your config file, and adds the library to your CMake, STM32CubeIDE, Keil, IAR or Makefile project, backing up the project file first.
+Installing one of my libraries takes one command. [stm32-installer](https://github.com/nimaltd/stm32-installer) copies the files into your project and adds the library to your CMake, STM32CubeIDE, Keil, IAR or Makefile project, backing up the project file first. Any library it needs comes with it, and an update keeps your settings.
 
 ```bash
 pip install stm32-installer
@@ -29,6 +29,15 @@ Libraries you can install with it:
 |---|---|---|
 | [seq](https://github.com/nimaltd/seq) | Non blocking state sequencer and interrupt task queue for STM32 | `stm32-installer nimaltd/seq` |
 | [ee24](https://github.com/nimaltd/ee24) | Driver for 24xx I2C EEPROMs, 24C01 to 24C512, on the STM32 HAL | `stm32-installer nimaltd/ee24` |
+| [spif](https://github.com/nimaltd/spif) | Driver for SPI NOR flash, W25Qxx and compatible, on the STM32 HAL | `stm32-installer nimaltd/spif` |
+| [osal](https://github.com/nimaltd/osal) | Mutex and delay for STM32, on bare metal, FreeRTOS or ThreadX | `stm32-installer nimaltd/osal` |
+| [littlefs](https://github.com/nimaltd/littlefs) | LittleFS by the littlefs project, ready for stm32-installer | `stm32-installer nimaltd/littlefs` |
+
+Some have parts you choose at install. spif asks whether you want the [LittleFS](https://github.com/littlefs-project/littlefs) file system on the flash, and a yes brings littlefs and the port for it, ready to mount:
+
+```bash
+stm32-installer nimaltd/spif --with littlefs
+```
 
 The rest are moving to it one by one, and this list grows as they do.
 
@@ -54,12 +63,12 @@ If a library saves you time, a ⭐ on the repo or a small [donation on Ko-fi](ht
 
 | Library | Description | Stars |
 |---|---|---|
-| [spif](https://github.com/nimaltd/spif) | SPI Flash driver for W25Qxx, N25Qxx and other chips, STM32 HAL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/spif?style=social) |
+| [spif](https://github.com/nimaltd/spif) | Driver for SPI NOR flash, W25Qxx and compatible, on the STM32 HAL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/spif?style=social) |
 | [ee](https://github.com/nimaltd/ee) | EEPROM emulation for STM32 | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ee?style=social) |
 | [atc](https://github.com/nimaltd/atc) | AT command parser for STM32 | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/atc?style=social) |
 | [gsm_v5](https://github.com/nimaltd/gsm_v5) | GSM module library for STM32 LL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/gsm_v5?style=social) |
 | [ds18b20](https://github.com/nimaltd/ds18b20) | Non-blocking DS18B20 driver for STM32 | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ds18b20?style=social) |
-| [ee24](https://github.com/nimaltd/ee24) | 24xx series EEPROM library for STM32 HAL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ee24?style=social) |
+| [ee24](https://github.com/nimaltd/ee24) | Driver for 24xx I2C EEPROMs, 24C01 to 24C512, on the STM32 HAL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ee24?style=social) |
 | [NMEA](https://github.com/nimaltd/NMEA) | GPS NMEA parser for STM32 LL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/NMEA?style=social) |
 
 👉 [See all my repositories](https://github.com/nimaltd?tab=repositories) for the rest, including seq, ow, tm1637, pb, ws28xx, HX711, DHT and more.
