@@ -30,7 +30,7 @@ Libraries you can install with it:
 | [seq](https://github.com/nimaltd/seq) | Non blocking state sequencer and interrupt task queue for STM32 | `stm32-installer nimaltd/seq` |
 | [ee24](https://github.com/nimaltd/ee24) | Driver for 24xx I2C EEPROMs, 24C01 to 24C512, on the STM32 HAL | `stm32-installer nimaltd/ee24` |
 | [spif](https://github.com/nimaltd/spif) | Driver for SPI NOR flash, W25Qxx and compatible, on the STM32 HAL | `stm32-installer nimaltd/spif` |
-| [osal](https://github.com/nimaltd/osal) | Mutex and delay for STM32, on bare metal, FreeRTOS or ThreadX | `stm32-installer nimaltd/osal` |
+| [osal](https://github.com/nimaltd/osal) | OS abstraction layer for STM32: the same mutex and delay on bare metal, FreeRTOS and ThreadX | `stm32-installer nimaltd/osal` |
 | [littlefs](https://github.com/nimaltd/littlefs) | LittleFS by the littlefs project, ready for stm32-installer | `stm32-installer nimaltd/littlefs` |
 
 Some have parts you choose at install. spif asks whether you want the [LittleFS](https://github.com/littlefs-project/littlefs) file system on the flash, and a yes brings littlefs and the port for it, ready to mount:
