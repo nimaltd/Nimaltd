@@ -33,12 +33,6 @@ Libraries you can install with it:
 | [osal](https://github.com/nimaltd/osal) | OS abstraction layer for STM32: the same mutex and delay on bare metal, FreeRTOS and ThreadX | `stm32-installer nimaltd/osal` |
 | [littlefs](https://github.com/nimaltd/littlefs) | LittleFS by the littlefs project, ready for stm32-installer | `stm32-installer nimaltd/littlefs` |
 
-Some have parts you choose at install. spif asks whether you want the [LittleFS](https://github.com/littlefs-project/littlefs) file system on the flash, and a yes brings littlefs and the port for it, ready to mount:
-
-```bash
-stm32-installer nimaltd/spif --with littlefs
-```
-
 The rest are moving to it one by one, and this list grows as they do.
 
 ---
