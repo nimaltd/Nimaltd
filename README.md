@@ -37,6 +37,21 @@ The rest are moving to it one by one, and this list grows as they do.
 
 ---
 
+### 🌬️ zephyr-installer
+
+[![PyPI](https://img.shields.io/pypi/v/zephyr-installer)](https://pypi.org/project/zephyr-installer/)
+
+The same one command for Zephyr and nRF Connect SDK. [zephyr-installer](https://github.com/nimaltd/zephyr-installer) makes the library a Zephyr module of your application, adds it to your `CMakeLists.txt` and switches it on in `prj.conf`, with its settings in Kconfig. Both installers read the same `installer.yml`, so one library can go into an STM32 project and a Zephyr application alike, and `--uninstall` takes it out again.
+
+```bash
+pip install zephyr-installer
+zephyr-installer nimaltd/zephyr-installer-example
+```
+
+To try either installer first, there is a small library made for it: [stm32-installer-example](https://github.com/nimaltd/stm32-installer-example) and [zephyr-installer-example](https://github.com/nimaltd/zephyr-installer-example).
+
+---
+
 ### 🎁 Open source, for real
 
 Every library I publish is free and open source. It's my way of giving something back to the embedded community that taught me so much over the years.
@@ -50,22 +65,6 @@ If a library saves you time, a ⭐ on the repo or a small [donation on Ko-fi](ht
 - Over 20 years across embedded programming, electronics design and hardware testing
 - 🥉 Third place, National Skills Competition of Electronic Engineering, Iran, 2003
 - B.Sc. in Electronic Engineering, Chamran University, Rasht
-
----
-
-### 📦 Most used libraries
-
-| Library | Description | Stars |
-|---|---|---|
-| [spif](https://github.com/nimaltd/spif) | Driver for SPI NOR flash, W25Qxx and compatible, on the STM32 HAL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/spif?style=social) |
-| [ee](https://github.com/nimaltd/ee) | EEPROM emulation for STM32 | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ee?style=social) |
-| [atc](https://github.com/nimaltd/atc) | AT command parser for STM32 | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/atc?style=social) |
-| [gsm_v5](https://github.com/nimaltd/gsm_v5) | GSM module library for STM32 LL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/gsm_v5?style=social) |
-| [ds18b20](https://github.com/nimaltd/ds18b20) | Non-blocking DS18B20 driver for STM32 | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ds18b20?style=social) |
-| [ee24](https://github.com/nimaltd/ee24) | Driver for 24xx I2C EEPROMs, 24C01 to 24C512, on the STM32 HAL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/ee24?style=social) |
-| [NMEA](https://github.com/nimaltd/NMEA) | GPS NMEA parser for STM32 LL | ![GitHub Repo stars](https://img.shields.io/github/stars/NimaLTD/NMEA?style=social) |
-
-👉 [See all my repositories](https://github.com/nimaltd?tab=repositories) for the rest, including seq, ow, tm1637, pb, ws28xx, HX711, DHT and more.
 
 ---
 
