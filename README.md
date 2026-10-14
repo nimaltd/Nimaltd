@@ -20,8 +20,10 @@ Installing one of my libraries takes one command. [stm32-installer](https://gith
 
 ```bash
 pip install stm32-installer
-stm32-installer nimaltd/seq
+stm32-installer nimaltd/stm32-installer-example
 ```
+
+That one is [stm32-installer-example](https://github.com/nimaltd/stm32-installer-example), a small library made for trying the installer on: it builds in any STM32 project and blinks an LED without `HAL_Delay()`.
 
 Libraries you can install with it:
 
@@ -48,7 +50,7 @@ pip install zephyr-installer
 zephyr-installer nimaltd/zephyr-installer-example
 ```
 
-To try either installer first, there is a small library made for it: [stm32-installer-example](https://github.com/nimaltd/stm32-installer-example) and [zephyr-installer-example](https://github.com/nimaltd/zephyr-installer-example).
+That one is [zephyr-installer-example](https://github.com/nimaltd/zephyr-installer-example), a small library made for trying the installer on: it builds in any Zephyr application, `native_sim` included, with its settings in Kconfig.
 
 ---
 
