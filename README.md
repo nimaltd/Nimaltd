@@ -10,7 +10,7 @@ I got tired of fighting messy drivers and overcomplicated code, so I started wri
 
 Lightweight, non-blocking, easy to drop in C libraries for STM32 (HAL and LL), covering storage, communication, sensors and general drivers. The idea is always the same: add the library to your project and have it working in minutes, not days.
 
-That is what the installers below are for: one command puts a library into an STM32, Zephyr, ESP-IDF, Arduino or PlatformIO project. They work with anyone's library, not only mine, once it has an `installer.yml`.
+That is what the installers below are for: one command puts a library into an STM32, Zephyr, ESP-IDF, Arduino or PlatformIO project. They work with anyone's library, not only mine, once it has an `installer.yml`. Each one takes a library and what it needs from GitHub, one release of it with `owner/name@v1.2.0`, or a zip when there is no internet, and asks before it runs anything a library brings, such as a script that makes a signing key.
 
 ---
 
@@ -34,7 +34,7 @@ Libraries you can install with it:
 | [seq](https://github.com/nimaltd/seq) | Non blocking state sequencer and interrupt task queue for STM32 | `stm32-installer nimaltd/seq` |
 | [ee24](https://github.com/nimaltd/ee24) | Driver for 24xx I2C EEPROMs, 24C01 to 24C512, on the STM32 HAL | `stm32-installer nimaltd/ee24` |
 | [spif](https://github.com/nimaltd/spif) | Driver for SPI NOR flash, W25Qxx and compatible, on the STM32 HAL | `stm32-installer nimaltd/spif` |
-| [osal](https://github.com/nimaltd/osal) | OS abstraction layer for STM32: the same mutex and delay on bare metal, FreeRTOS and ThreadX | `stm32-installer nimaltd/osal` |
+| [osal](https://github.com/nimaltd/osal) | OS abstraction layer for STM32: the same tasks, mutexes, critical sections, delays and heap on bare metal, FreeRTOS and ThreadX | `stm32-installer nimaltd/osal` |
 | [littlefs](https://github.com/nimaltd/littlefs) | LittleFS by the littlefs project, ready for stm32-installer | `stm32-installer nimaltd/littlefs` |
 
 The rest are moving to it one by one, and this list grows as they do.
