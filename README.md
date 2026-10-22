@@ -27,11 +27,11 @@ lib-installer nimaltd/ee24
 
 | Platform | What it does | Try it with |
 |---|---|---|
-| STM32 | Adds the library to your CMake, STM32CubeIDE, Keil, IAR or Makefile project | `lib-installer nimaltd/lib-installer-stm32` |
-| Zephyr and nRF Connect SDK | Makes it a Zephyr module, adds it to `CMakeLists.txt` and switches it on in `prj.conf`, with its settings in Kconfig | `lib-installer nimaltd/lib-installer-zephyr` |
-| ESP-IDF | Makes it a component, with its settings in `idf.py menuconfig` and the symbols it needs in `sdkconfig.defaults` | `lib-installer nimaltd/lib-installer-esp32` |
-| Arduino | Puts it in your sketchbook's libraries folder, or one sketch's `src` folder, with the `library.properties` Arduino needs | `lib-installer nimaltd/lib-installer-arduino` |
-| PlatformIO | Puts it in `lib` with a `library.json`, and the defines it needs in `platformio.ini`, for every framework | `lib-installer nimaltd/lib-installer-pio` |
+| STM32 | Adds the library to your CMake, STM32CubeIDE, Keil, IAR or Makefile project | `lib-installer nimaltd/lib-installer-example-stm32` |
+| Zephyr and nRF Connect SDK | Makes it a Zephyr module, adds it to `CMakeLists.txt` and switches it on in `prj.conf`, with its settings in Kconfig | `lib-installer nimaltd/lib-installer-example-zephyr` |
+| ESP-IDF | Makes it a component, with its settings in `idf.py menuconfig` and the symbols it needs in `sdkconfig.defaults` | `lib-installer nimaltd/lib-installer-example-esp32` |
+| Arduino | Puts it in your sketchbook's libraries folder, or one sketch's `src` folder, with the `library.properties` Arduino needs | `lib-installer nimaltd/lib-installer-example-arduino` |
+| PlatformIO | Puts it in `lib` with a `library.json`, and the defines it needs in `platformio.ini`, for every framework | `lib-installer nimaltd/lib-installer-example-pio` |
 
 Each of the last column is a small library made for trying the installer on, a period that never blocks, which builds on its platform with nothing to set up.
 
