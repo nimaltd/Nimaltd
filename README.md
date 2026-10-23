@@ -18,7 +18,7 @@ That is what lib-installer below is for: one command puts a library into an STM3
 
 [![PyPI](https://img.shields.io/pypi/v/lib-installer)](https://pypi.org/project/lib-installer/)
 
-Installing one of my libraries takes one command, on every platform. [lib-installer](https://github.com/nimaltd/lib-installer) copies the files into your project and adds the library to its build, backing up every project file first. Any library it needs comes with it, an update keeps your settings, and `--uninstall` takes it out again. The library's `installer.yml` says which platform it is for, so the command is the same everywhere.
+Installing one of my libraries takes one command, on every platform. [lib-installer](https://github.com/nimaltd/lib-installer) is one installer for all five: it copies the files into your project and adds the library to its build, backing up every project file first. Any library it needs comes with it, an update keeps your settings, and `--uninstall` takes it out again. The library's `installer.yml` says which platform it is for, so the command is the same everywhere. What it writes into your files, such as `prj.conf`, `sdkconfig.defaults` or `platformio.ini`, carries the library's titles and notes as comments, so you can see why each line is there.
 
 ```bash
 pip install lib-installer
@@ -28,10 +28,10 @@ lib-installer nimaltd/ee24
 | Platform | What it does | Try it with |
 |---|---|---|
 | STM32 | Adds the library to your CMake, STM32CubeIDE, Keil, IAR or Makefile project | `lib-installer nimaltd/lib-installer-example-stm32` |
-| Zephyr and nRF Connect SDK | Makes it a Zephyr module, adds it to `CMakeLists.txt` and switches it on in `prj.conf`, with its settings in Kconfig | `lib-installer nimaltd/lib-installer-example-zephyr` |
-| ESP-IDF | Makes it a component, with its settings in `idf.py menuconfig` and the symbols it needs in `sdkconfig.defaults` | `lib-installer nimaltd/lib-installer-example-esp32` |
+| Zephyr and nRF Connect SDK | Makes it a Zephyr module, adds it to `CMakeLists.txt` and switches it on in `prj.conf`, with the library's notes as comments and its settings in Kconfig | `lib-installer nimaltd/lib-installer-example-zephyr` |
+| ESP-IDF | Makes it a component, with its settings in `idf.py menuconfig` and the symbols it needs in `sdkconfig.defaults`, with the library's notes as comments | `lib-installer nimaltd/lib-installer-example-esp32` |
 | Arduino | Puts it in your sketchbook's libraries folder, or one sketch's `src` folder, with the `library.properties` Arduino needs | `lib-installer nimaltd/lib-installer-example-arduino` |
-| PlatformIO | Puts it in `lib` with a `library.json`, and the defines it needs in `platformio.ini`, for every framework | `lib-installer nimaltd/lib-installer-example-pio` |
+| PlatformIO | Puts it in `lib` with a `library.json`, and the defines and flags it needs in `platformio.ini`, for every framework | `lib-installer nimaltd/lib-installer-example-pio` |
 
 Each of the last column is a small library made for trying the installer on, a period that never blocks, which builds on its platform with nothing to set up.
 
