@@ -12,6 +12,8 @@ Lightweight, non-blocking, easy to drop in C libraries for STM32 (HAL and LL), c
 
 That is what lib-installer below is for: one command puts a library into an STM32, Zephyr, ESP-IDF, Arduino or PlatformIO project. It works with anyone's library, not only mine, once it has an `installer.yml`. It takes a library and what it needs from GitHub, one release of it with `owner/name@v1.2.0`, or a zip when there is no internet, and asks before it runs anything a library brings, such as a script that makes a signing key.
 
+And to talk to the board once it runs, [terNIMA](#-ternima): a serial, RTT, SWO and TCP terminal, with Zephyr logs, a plotter and a Modbus tester.
+
 ---
 
 ### 🧰 lib-installer
@@ -49,11 +51,28 @@ The rest are moving to it one by one, and this list grows as they do. stm32-inst
 
 ---
 
+### 📟 terNIMA
+
+[![Release](https://img.shields.io/github/v/release/nimaltd/ternima)](https://github.com/nimaltd/ternima/releases/latest)
+
+[terNIMA](https://github.com/nimaltd/ternima) is the terminal I wanted for the boards these libraries run on: serial, RTT, SWO and TCP in one window, the same on Windows, macOS and Linux. RTT and SWO go straight through a CMSIS-DAP, J-Link or ST-Link probe, with no vendor software.
+
+![terNIMA showing Zephyr logs by level and module, with highlights](https://nimaltd.github.io/assets/ternima-logs.png)
+
+- Zephyr logs you can filter by level and module, and a full VT100 terminal for the Zephyr shell
+- A live plotter for the numbers your firmware prints: over time with A and B cursors, RMS and a scope trigger, XY, histogram and FFT
+- A Modbus RTU and ASCII tester, as a master or a slave, and every frame on the bus in a table
+- Record a session and play it back later, with its timing
+
+Download it for Windows, macOS or Linux from its [Releases](https://github.com/nimaltd/ternima/releases/latest), and see it feature by feature on [nimaltd.github.io](https://nimaltd.github.io/#ternima).
+
+---
+
 ### 🎁 Open source, for real
 
-Every library I publish is free and open source. It's my way of giving something back to the embedded community that taught me so much over the years.
+Every library and tool I publish is free and open source. It's my way of giving something back to the embedded community that taught me so much over the years.
 
-If a library saves you time, a ⭐ on the repo or a small [donation on Ko-fi](https://ko-fi.com/nimaltd) means a lot to me. It's a small thing for you, but it genuinely keeps me motivated to keep writing, documenting and maintaining these libraries.
+If one of them saves you time, a ⭐ on the repo or a small [donation on Ko-fi](https://ko-fi.com/nimaltd) means a lot to me. It's a small thing for you, but it genuinely keeps me motivated to keep writing, documenting and maintaining these libraries.
 
 ---
 
