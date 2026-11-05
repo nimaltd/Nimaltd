@@ -10,44 +10,43 @@ I got tired of fighting messy drivers and overcomplicated code, so I started wri
 
 Lightweight, non-blocking, easy to drop in C libraries for STM32 (HAL and LL), covering storage, communication, sensors and general drivers. The idea is always the same: add the library to your project and have it working in minutes, not days.
 
-That is what lib-installer below is for: one command puts a library into an STM32, Zephyr, ESP-IDF, Arduino or PlatformIO project. It works with anyone's library, not only mine, once it has an `installer.yml`. It takes a library and what it needs from GitHub, one release of it with `owner/name@v1.2.0`, or a zip when there is no internet, and asks before it runs anything a library brings, such as a script that makes a signing key.
+That is what [libNIMA](#-libnima) below is for: a window, or one command, puts a library into an STM32, Zephyr, ESP-IDF, Arduino or PlatformIO project. It works with anyone's library, not only mine, once it has a `libnima.yml`. It takes a library and what it needs from GitHub, one release of it with `owner/name@v1.2.0`, or a zip when there is no internet, and asks before it runs anything a library brings, such as a script that makes a signing key.
 
 And to talk to the board once it runs, [terNIMA](#-ternima): a serial, RTT, SWO and TCP terminal, with Zephyr logs, a plotter and a Modbus tester.
 
 ---
 
-### 🧰 lib-installer
+### 🧰 libNIMA
 
-[![PyPI](https://img.shields.io/pypi/v/lib-installer)](https://pypi.org/project/lib-installer/)
+[![Release](https://img.shields.io/github/v/release/nimaltd/libNIMA)](https://github.com/nimaltd/libNIMA/releases/latest)
 
-Installing one of my libraries takes one command, on every platform. [lib-installer](https://github.com/nimaltd/lib-installer) is one installer for all five: it copies the files into your project and adds the library to its build, backing up every project file first. Any library it needs comes with it, an update keeps your settings, and `--uninstall` takes it out again. The library's `installer.yml` says which platform it is for, so the command is the same everywhere. What it writes into your files, such as `prj.conf`, `sdkconfig.defaults` or `platformio.ini`, carries the library's titles and notes as comments, so you can see why each line is there.
+Installing one of my libraries takes one command, on every platform. [libNIMA](https://github.com/nimaltd/libNIMA) is one installer for all five, with a window and a command, the same on Windows, macOS and Linux: it reads your project to tell which platform it is, copies the files in and adds the library to its build, backing up every project file first. Any library it needs comes with it, an update keeps your settings, and `--uninstall` takes it out again. What it writes into your files, such as `prj.conf`, `sdkconfig.defaults` or `platformio.ini`, carries the library's titles and notes as comments, so you can see why each line is there.
 
 ```bash
-pip install lib-installer
-lib-installer nimaltd/ee24
+libnima nimaltd/ee24
 ```
 
-| Platform | What it does | Try it with |
-|---|---|---|
-| STM32 | Adds the library to your CMake, STM32CubeIDE, Keil, IAR or Makefile project | `lib-installer nimaltd/lib-installer-example-stm32` |
-| Zephyr and nRF Connect SDK | Makes it a Zephyr module, adds it to `CMakeLists.txt` and switches it on in `prj.conf`, with the library's notes as comments and its settings in Kconfig | `lib-installer nimaltd/lib-installer-example-zephyr` |
-| ESP-IDF | Makes it a component, with its settings in `idf.py menuconfig` and the symbols it needs in `sdkconfig.defaults`, with the library's notes as comments | `lib-installer nimaltd/lib-installer-example-esp32` |
-| Arduino | Puts it in your sketchbook's libraries folder, or one sketch's `src` folder, with the `library.properties` Arduino needs | `lib-installer nimaltd/lib-installer-example-arduino` |
-| PlatformIO | Puts it in `lib` with a `library.json`, and the defines and flags it needs in `platformio.ini`, for every framework | `lib-installer nimaltd/lib-installer-example-pio` |
+| Platform | What it does |
+|---|---|
+| STM32 | Adds the library to your CMake, STM32CubeIDE, Keil, IAR or Makefile project |
+| Zephyr and nRF Connect SDK | Makes it a Zephyr module, adds it to `CMakeLists.txt` and switches it on in `prj.conf`, with the library's notes as comments and its settings in Kconfig |
+| ESP-IDF | Makes it a component, with its settings in `idf.py menuconfig` and the symbols it needs in `sdkconfig.defaults`, with the library's notes as comments |
+| Arduino | Puts it in your sketchbook's libraries folder, or one sketch's `src` folder, with the `library.properties` Arduino needs |
+| PlatformIO | Puts it in `lib` with a `library.json`, and the defines and flags it needs in `platformio.ini`, for every framework |
 
-Each of the last column is a small library made for trying the installer on, a period that never blocks, which builds on its platform with nothing to set up.
+Download it for Windows, macOS or Linux from its [Releases](https://github.com/nimaltd/libNIMA/releases/latest), and see it on [nimaltd.github.io](https://nimaltd.github.io/libnima/).
 
 Libraries you can install with it:
 
 | Library | Description | Install |
 |---|---|---|
-| [seq](https://github.com/nimaltd/seq) | Non blocking state sequencer and interrupt task queue for STM32 | `lib-installer nimaltd/seq` |
-| [ee24](https://github.com/nimaltd/ee24) | Driver for 24xx I2C EEPROMs, 24C01 to 24C512, on the STM32 HAL | `lib-installer nimaltd/ee24` |
-| [spif](https://github.com/nimaltd/spif) | Driver for SPI NOR flash, W25Qxx and compatible, on the STM32 HAL | `lib-installer nimaltd/spif` |
-| [osal](https://github.com/nimaltd/osal) | OS abstraction layer for STM32: the same tasks, mutexes, critical sections, delays and heap on bare metal, FreeRTOS and ThreadX | `lib-installer nimaltd/osal` |
-| [littlefs](https://github.com/nimaltd/littlefs) | LittleFS by the littlefs project, ready for lib-installer | `lib-installer nimaltd/littlefs` |
+| [seq](https://github.com/nimaltd/seq) | Non blocking state sequencer and interrupt task queue for STM32 | `libnima nimaltd/seq` |
+| [ee24](https://github.com/nimaltd/ee24) | Driver for 24xx I2C EEPROMs, 24C01 to 24C512, on the STM32 HAL | `libnima nimaltd/ee24` |
+| [spif](https://github.com/nimaltd/spif) | Driver for SPI NOR flash, W25Qxx and compatible, on the STM32 HAL | `libnima nimaltd/spif` |
+| [osal](https://github.com/nimaltd/osal) | OS abstraction layer for STM32: the same tasks, mutexes, critical sections, delays and heap on bare metal, FreeRTOS and ThreadX | `libnima nimaltd/osal` |
+| [littlefs](https://github.com/nimaltd/littlefs) | LittleFS by the littlefs project, ready for libNIMA | `libnima nimaltd/littlefs` |
 
-The rest are moving to it one by one, and this list grows as they do. stm32-installer, zephyr-installer, esp32-installer, arduino-installer and pio-installer were five installers until 3.0.0, and are lib-installer now: a project one of them installed into moves over by itself.
+The rest are moving to it one by one, and this list grows as they do.
 
 ---
 
