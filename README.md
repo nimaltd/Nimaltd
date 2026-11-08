@@ -41,6 +41,7 @@ Libraries you can install with it:
 | Library | Description | Install |
 |---|---|---|
 | [seq](https://github.com/nimaltd/seq) | Non blocking state sequencer and interrupt task queue for STM32 | `libnima nimaltd/seq` |
+| [rbuf](https://github.com/nimaltd/rbuf) | Ring buffer for items of any type, safe between interrupts and threads, for STM32 | `libnima nimaltd/rbuf` |
 | [ee24](https://github.com/nimaltd/ee24) | Driver for 24xx I2C EEPROMs, 24C01 to 24C512, on the STM32 HAL | `libnima nimaltd/ee24` |
 | [spif](https://github.com/nimaltd/spif) | Driver for SPI NOR flash, W25Qxx and compatible, on the STM32 HAL | `libnima nimaltd/spif` |
 | [osal](https://github.com/nimaltd/osal) | OS abstraction layer for STM32: the same tasks, mutexes, critical sections, delays and heap on bare metal, FreeRTOS and ThreadX | `libnima nimaltd/osal` |
