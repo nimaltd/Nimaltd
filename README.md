@@ -1,90 +1,15 @@
 # 👋 Hi, I'm Nima Askari
 
-I'm an electronics engineer and embedded systems developer. For more than 20 years I've been writing C for STM32 microcontrollers, and most of that time has gone into one goal: making libraries that are actually easy to use.
+I'm an electronics engineer and embedded systems developer. For more than 20 years I've been writing C for STM32 microcontrollers, and most of that time has gone into one goal: making tools and libraries that are actually easy to use. All of them are free and open source.
 
-I got tired of fighting messy drivers and overcomplicated code, so I started writing my own, cleaning them up, and sharing them with anyone who needs them.
+### 🌐 Everything is on [nimaltd.github.io](https://nimaltd.github.io/)
 
----
+- 📟 **[terNIMA](https://nimaltd.github.io/ternima/)**: a terminal for embedded developers
+- 🧰 **[libNIMA](https://nimaltd.github.io/libnima/)**: a library into any project, from a window or a command
+- 📡 **[bleNIMA](https://nimaltd.github.io/blenima/)**: a Bluetooth LE tester for embedded developers
+- 📚 **[Libraries](https://nimaltd.github.io/libraries/)**: lightweight, non-blocking C libraries for STM32
 
-### 💡 What I focus on
-
-Lightweight, non-blocking, easy to drop in C libraries for STM32 (HAL and LL), covering storage, communication, sensors and general drivers. The idea is always the same: add the library to your project and have it working in minutes, not days.
-
-That is what [libNIMA](#-libnima) below is for: a window, or one command, puts a library into an STM32, Zephyr, ESP-IDF, Arduino or PlatformIO project. It works with anyone's library, not only mine, once it has a `libnima.yml`. It takes a library and what it needs from GitHub, one release of it with `owner/name@v1.2.0`, or a zip when there is no internet, and asks before it runs anything a library brings, such as a script that makes a signing key.
-
-And to talk to the board once it runs, [terNIMA](#-ternima): a serial, RTT, SWO and TCP terminal, with Zephyr logs, a plotter and a Modbus tester.
-
----
-
-### 🧰 libNIMA
-
-[![Release](https://img.shields.io/github/v/release/nimaltd/libNIMA)](https://github.com/nimaltd/libNIMA/releases/latest)
-
-Installing one of my libraries takes one command, on every platform. [libNIMA](https://github.com/nimaltd/libNIMA) is one installer for all five, with a window and a command, the same on Windows, macOS and Linux: it reads your project to tell which platform it is, copies the files in and adds the library to its build, backing up every project file first. Any library it needs comes with it, an update keeps your settings, and `--uninstall` takes it out again. What it writes into your files, such as `prj.conf`, `sdkconfig.defaults` or `platformio.ini`, carries the library's titles and notes as comments, so you can see why each line is there.
-
-```bash
-libnima nimaltd/ee24
-```
-
-| Platform | What it does |
-|---|---|
-| STM32 | Adds the library to your CMake, STM32CubeIDE, Keil, IAR or Makefile project |
-| Zephyr and nRF Connect SDK | Makes it a Zephyr module, adds it to `CMakeLists.txt` and switches it on in `prj.conf`, with the library's notes as comments and its settings in Kconfig |
-| ESP-IDF | Makes it a component, with its settings in `idf.py menuconfig` and the symbols it needs in `sdkconfig.defaults`, with the library's notes as comments |
-| Arduino | Puts it in your sketchbook's libraries folder, or one sketch's `src` folder, with the `library.properties` Arduino needs |
-| PlatformIO | Puts it in `lib` with a `library.json`, and the defines and flags it needs in `platformio.ini`, for every framework |
-
-Download it for Windows, macOS or Linux from its [Releases](https://github.com/nimaltd/libNIMA/releases/latest), and see it on [nimaltd.github.io](https://nimaltd.github.io/libnima/).
-
-Libraries you can install with it:
-
-| Library | Description | Install |
-|---|---|---|
-| [seq](https://github.com/nimaltd/seq) | Non blocking state sequencer and interrupt task queue for STM32 | `libnima nimaltd/seq` |
-| [rbuf](https://github.com/nimaltd/rbuf) | Ring buffer for items of any type, safe between interrupts and threads, for STM32 | `libnima nimaltd/rbuf` |
-| [ee24](https://github.com/nimaltd/ee24) | Driver for 24xx I2C EEPROMs, 24C01 to 24C512, on the STM32 HAL | `libnima nimaltd/ee24` |
-| [spif](https://github.com/nimaltd/spif) | Driver for SPI NOR flash, W25Qxx and compatible, on the STM32 HAL | `libnima nimaltd/spif` |
-| [osal](https://github.com/nimaltd/osal) | OS abstraction layer for STM32: the same tasks, mutexes, critical sections, delays and heap on bare metal, FreeRTOS and ThreadX | `libnima nimaltd/osal` |
-| [littlefs](https://github.com/nimaltd/littlefs) | LittleFS by the littlefs project, ready for libNIMA | `libnima nimaltd/littlefs` |
-
-The rest are moving to it one by one, and this list grows as they do.
-
----
-
-### 📟 terNIMA
-
-[![Release](https://img.shields.io/github/v/release/nimaltd/ternima)](https://github.com/nimaltd/ternima/releases/latest)
-
-[terNIMA](https://github.com/nimaltd/ternima) is the terminal I wanted for the boards these libraries run on: serial, RTT, SWO and TCP in one window, the same on Windows, macOS and Linux. RTT and SWO go straight through a CMSIS-DAP, J-Link or ST-Link probe, with no vendor software.
-
-![terNIMA showing Zephyr logs by level and module, with highlights](https://nimaltd.github.io/assets/ternima-logs.png)
-
-- Zephyr logs you can filter by level and module, and a full VT100 terminal for the Zephyr shell
-- A live plotter for the numbers your firmware prints: over time with A and B cursors, RMS and a scope trigger, XY, histogram and FFT
-- A Modbus RTU and ASCII tester, as a master or a slave, and every frame on the bus in a table
-- Record a session and play it back later, with its timing
-
-Download it for Windows, macOS or Linux from its [Releases](https://github.com/nimaltd/ternima/releases/latest), and see it feature by feature on [nimaltd.github.io](https://nimaltd.github.io/#ternima).
-
----
-
-### 🎁 Open source, for real
-
-Every library and tool I publish is free and open source. It's my way of giving something back to the embedded community that taught me so much over the years.
-
-If one of them saves you time, a ⭐ on the repo or a small [donation on Ko-fi](https://ko-fi.com/nimaltd) means a lot to me. It's a small thing for you, but it genuinely keeps me motivated to keep writing, documenting and maintaining these libraries.
-
----
-
-### 🏆 Background
-
-- Over 20 years across embedded programming, electronics design and hardware testing
-- 🥉 Third place, National Skills Competition of Electronic Engineering, Iran, 2003
-- B.Sc. in Electronic Engineering, Chamran University, Rasht
-
----
-
-### 🌐 Let's connect
+If one of them saves you time, a ⭐ on its repo or a [coffee on Ko-fi](https://ko-fi.com/nimaltd) keeps me going.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://www.github.com/NimaLTD)
 [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@NimaLTD)
@@ -92,9 +17,3 @@ If one of them saves you time, a ⭐ on the repo or a small [donation on Ko-fi](
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/nimaltd)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:nima.askari@gmail.com)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-orange?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/nimaltd)
-
----
-
-### 🙏 Thanks
-
-Thanks for stopping by. If any of my work is useful to you, a star on the repo or a small donation helps more than you'd think, and I appreciate every bit of it. ⚙️
