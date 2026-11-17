@@ -7,6 +7,7 @@ I'm an electronics engineer and embedded systems developer. For more than 20 yea
 - 📟 **[terNIMA](https://nimaltd.github.io/ternima/)**: a terminal for embedded developers
 - 🧰 **[libNIMA](https://nimaltd.github.io/libnima/)**: a library into any project, from a window or a command
 - 📡 **[bleNIMA](https://nimaltd.github.io/blenima/)**: a Bluetooth LE tester for embedded developers
+- 🔌 **[netNIMA](https://nimaltd.github.io/netnima/)**: a network tester for embedded developers
 - 📚 **[Libraries](https://nimaltd.github.io/libraries/)**: lightweight, non-blocking C libraries for STM32
 
 If one of them saves you time, a ⭐ on its repo or a [coffee on Ko-fi](https://ko-fi.com/nimaltd) keeps me going.
